@@ -11,7 +11,6 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
 .container1{
     width:75%;
     margin:auto;
@@ -79,13 +78,58 @@ nav{
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+.project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  
 #navbar{
     background-color:rgb(2, 42, 68);
     color:#fff;
     display: flex;
     text-align: center;
 }
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+  }
+
+ 
+
+.project-container p {
+    padding: 0.4rem;
+  }
+  
+.project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+.project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
 #navbar ul{
     padding: 10px;
     list-style: none;
@@ -106,99 +150,54 @@ nav{
     color: rgb(21, 64, 116);
 }
 
-.intro h1{
-    font-size:60px;
+#container2{
+    background-color: rgba(65, 135, 160, 0.36);
+    width: 100%;
+    height: 650px;
+    padding-top: 10px;
+    /* display: flex;
+    justify-content: center;
     text-align: center;
-    padding-top: 200px;
-    color:rgb(185, 237, 14);
+    align-items: center; */
 }
 
-.intro h2{
-    padding-top: 20px;
-    text-align: center;
-    color:whitesmoke;
-}
-
-
-#workarea{
-    font-family: Arial, Helvetica, sans-serif;
+#container3{
     display: flex;
-    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    padding-top: 100px;
+
 }
-.container2{
+
+#container3 ul{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    pointer-events: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#container2 h1{
     display:flex;
     justify-content: center;
-    font-size: 60px;
-    color:rgb(21, 64, 116);
+    align-items: center;
+    text-align: center;
 }
 
-
-.container3{
-    padding-left: 250px;
-}
-
-.container3 h1{
-    font-size: 40px;
-    color:rgb(21, 64, 116);
-}
-
-.container3 ul{
-    padding: 20px;
-    padding-inline-start: 40px;
-    font-size: 25px;
-}
-
-.container3 ul a{
-    text-decoration: none;
-    cursor: text;
-    pointer-events: none;
-}
-
-
-.container4{
-    padding-top: 30px;
-    padding-left: 250px;
-}
-.container4 h1{
-    font-size: 40px;
-    color:rgb(21, 64, 116);
-}
-.container4 ul{
-    padding: 20px;
-    padding-inline-start: 40px;
-    font-size: 25px;
-    font-weight:lighter;
-}
-
-.container4 ul a{
-    text-decoration: none;
-    cursor:text;
-    pointer-events: none;
-}
-
-.container5{
-    padding-top: 30px;
-    padding-left: 250px;
-}
-.container5 h1{
-    font-size: 40px;
-    color:rgb(21, 64, 116);
-}
-
-.container5 ul{
-    padding: 20px;
-    padding-inline-start: 40px;
-    font-size: 25px;
-}
-.container5 ul a{
-    text-decoration: none;
-    cursor: text;
-    pointer-events: none;
+#container5{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .footer{
-    background-color: rgb(9, 86, 134);
-    height:90px ;
+    position:fixed;
+    background-color: rgb(2, 42, 68);
+    left: 0;
+    bottom: 0;
+    height:75px ;
     width:100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -209,6 +208,7 @@ nav{
 }
 .footer p{
     scroll-padding-inline: 20px;
+    color: whitesmoke;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -225,7 +225,3 @@ nav{
     justify-content: center;
   }
   
-  /* .socicon {
-    width: 2rem;
-    height: 2rem;
-  } */
